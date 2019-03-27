@@ -29,4 +29,3 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-![image](https://github.com/maryrui/vue-music/blob/master/static/img/1553680138.png)
