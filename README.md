@@ -1,4 +1,5 @@
 # music
+# 手机预览
 ![image](https://github.com/maryrui/vue-music/blob/master/static/img/1553680138.png)
 > A Vue.js project
 
