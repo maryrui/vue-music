@@ -59,7 +59,7 @@
                 </div>
             </div>
         </transition>
-        <audio :src="currentSong ? currentSong.url : ''" ref="myMusic" autoplay @play="canplay" @ended="end" @timeupdate="timeupdate"></audio>
+        <audio :src="currentSong ? currentSong.url : ''" ref="myMusic" autoplay @play="canplay" @ended="end" @timeupdate="timeupdate" id="music-audio"></audio>
     </div>
 </template>
 
@@ -129,7 +129,10 @@
             },
             canplay(){
                 this.playing=true;
-                this.duration=this.$refs.myMusic.duration;
+                setTimeout(()=>{
+                    this.duration=this.$refs.myMusic.duration;
+                },100)
+
             },
             end(){
                 // this.playing=false;
